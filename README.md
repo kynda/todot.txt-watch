@@ -17,9 +17,9 @@ ln -s todo.txt-watch/w $TODOTXT_ACTIONS_DIR/w
 Usage
   $ todo.sh watch [COMMAND]
              
-  Examples"
-    \$ todo.sh $(basename $0) "ls +project"
-    \$ todo.sh $(basename $0) "lsp @context"
+  Examples
+    $ todo.sh watch ls +project
+    $ todo.sh watch lsp @context
 ```
 
 ## License
