@@ -5,7 +5,7 @@ Clear terminal and repeat a todo command whenever the todo.txt file changes.
 ## Install
 
 ```
-pip install watchdog
+sudo apt install entr
 git clone https://github.com/kynda/todo.txt-watch.git
 ln -s todo.txt-watch/watch $TODOTXT_ACTIONS_DIR/watch
 ln -s todo.txt-watch/w $TODOTXT_ACTIONS_DIR/w
