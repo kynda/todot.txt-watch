@@ -8,16 +8,15 @@ shift
 cmd=$@
 
 function usage() {
-    echo "  $(basename $0) [COMMAND]"
-    echo "    Clear terminal and repeat a todo command whenever the todo.txt"
-    echo "    file changes."
+    echo "  Repeat a todo command whenever the todo.txt changes"
+    echo "    $(basename $0) [COMMAND]"
     echo ""
-    echo "    Usage"
-    echo "      \$ todo.sh $(basename $0) [COMMAND]"
+    echo "      Usage"
+    echo "        \$ todo.sh $(basename $0) [COMMAND]"
     echo ""
-    echo "    Examples"
-    echo "      \$ todo.sh $(basename $0) ls +project"
-    echo "      \$ todo.sh $(basename $0) lsp @contect"
+    echo "      Examples"
+    echo "        \$ todo.sh $(basename $0) ls +project"
+    echo "        \$ todo.sh $(basename $0) lsp @contect"
     echo ""
     exit
 }
